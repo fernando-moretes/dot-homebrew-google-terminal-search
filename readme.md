@@ -1,48 +1,59 @@
-# Google Terminal Search
+# homebrew-google-terminal-search
 
-This repository contains a script that enables you to perform Google searches directly from the terminal. 
+> Homebrew tap for google-terminal-search.
 
-## Installation
+![Status](https://img.shields.io/badge/status-active-success)
+![Stack](https://img.shields.io/badge/stack-Ruby-informational)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-To install Google Terminal Search via Homebrew, run the following commands:
+## Overview
 
-```sh
-brew tap fernandofatech/google-terminal-search
-brew install google-terminal-search
-```
+Homebrew tap that lets you install `google-terminal-search` with a single `brew install` command.
 
-This will install the latest version of the script on your system.
+## Tech Stack
 
-## Usage
-
-After installation, you can perform a search by executing:
-
-```sh
-google_search.sh "your search query here"
-```
-
-Replace "your search query here" with the actual search term you want to use.
+- **Ruby**
+- **Homebrew**
 
 ## Features
 
-- Quick Google searches from the terminal
-- Lightweight and easy to use
+- One-line install
+- Homebrew-native
 
-## Requirements
+## Getting Started
 
-- `curl` or `wget` must be installed
-- Homebrew must be installed to use the installation method provided
+```bash
+# Clone the repository
+git clone https://github.com/fernandofatech/homebrew-google-terminal-search.git
+cd homebrew-google-terminal-search
+
+# Install via Homebrew tap
+brew tap fernandofatech/google-terminal-search
+```
+
+## Project Structure
+
+This project follows a modular, production-oriented layout. See the source tree for details.
+
+## Roadmap
+
+- [ ] Continuous improvements and refactors
+- [ ] Expanded test coverage
+- [ ] Documentation enhancements
 
 ## Contributing
 
-Contributions to improve Google Terminal Search are welcome. Please send pull requests to this repository.
+Issues and pull requests are welcome. Please open an issue to discuss significant changes before submitting a PR.
 
 ## License
 
-Google Terminal Search is released under the MIT License. See the LICENSE file for more details.
+Released under the MIT License. See `LICENSE` for details.
 
-## Contact
+## Author
 
-For questions and feedback, please open an issue in the GitHub repository issue tracker.
+**Fernando Azevedo** — Senior Solution Architect
+[GitHub](https://github.com/fernandofatech) · [LinkedIn](https://www.linkedin.com/in/fernandofatech/)
 
-Enjoy using Google Terminal Search!
+---
+
+_Part of [Fernando Azevedo's engineering portfolio](https://github.com/fernandofatech) — cloud architecture, serverless and developer productivity._
