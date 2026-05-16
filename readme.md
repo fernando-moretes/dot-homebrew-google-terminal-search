@@ -57,3 +57,13 @@ Released under the MIT License. See `LICENSE` for details.
 ---
 
 _Part of [Fernando Azevedo's engineering portfolio](https://github.com/fernandofatech) — cloud architecture, serverless and developer productivity._
+
+## Portfolio / Portfólio
+
+- **Live / Ao vivo:** [Homebrew Google Terminal Search](https://github.com/fernandofatech/homebrew-google-terminal-search)
+- **GitHub:** [fernandofatech/homebrew-google-terminal-search](https://github.com/fernandofatech/homebrew-google-terminal-search)
+- **Author / Autor:** [Fernando Francisco Azevedo](https://fernando.moretes.com) · [LinkedIn](https://www.linkedin.com/in/fernando-francisco-azevedo/) · [GitHub](https://github.com/fernandofatech)
+
+**PT-BR:** Homebrew tap/package repository for Google Terminal Search. Este repositório público faz parte do ecossistema de portfólio de Fernando Moretes, com foco em arquitetura de soluções, AWS, IA, automação e boas práticas de engenharia.
+
+**EN:** Homebrew tap/package repository for Google Terminal Search. This public repository is part of Fernando Moretes' portfolio ecosystem, focused on solution architecture, AWS, AI, automation, and pragmatic engineering practices.
