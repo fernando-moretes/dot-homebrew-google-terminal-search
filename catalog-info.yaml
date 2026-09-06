@@ -1,0 +1,25 @@
+# Gerado por fernando-moretes/platform. Não edite aqui: mude no orquestrador e
+# rode `make rollout`. É o que o Backstage (backstage.home.lab) lê deste repo.
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dot-homebrew-google-terminal-search
+  description: Homebrew distribution repository for google-terminal-search, part of Fernando Moretes public tooling portfolio.
+  annotations:
+    github.com/project-slug: fernando-moretes/dot-homebrew-google-terminal-search
+    backstage.io/source-location: url:https://github.com/fernando-moretes/dot-homebrew-google-terminal-search
+    sonarqube.org/project-key: dot-homebrew-google-terminal-search
+  links:
+    - url: https://github.com/fernando-moretes/dot-homebrew-google-terminal-search/actions
+      title: Actions
+      icon: github
+    - url: https://sonarqube.home.lab/dashboard?id=dot-homebrew-google-terminal-search
+      title: SonarQube
+    - url: https://defectdojo.home.lab/product?name=dot-homebrew-google-terminal-search
+      title: DefectDojo
+  tags: [config, ci-generic.yml]
+spec:
+  type: config
+  lifecycle: production
+  owner: group:plataforma
+  system: homelab
