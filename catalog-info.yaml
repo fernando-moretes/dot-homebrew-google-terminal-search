@@ -7,8 +7,12 @@ metadata:
   description: "Homebrew distribution repository for google-terminal-search, part of Fernando Moretes public tooling portfolio."
   annotations:
     github.com/project-slug: fernando-moretes/dot-homebrew-google-terminal-search
-    backstage.io/source-location: url:https://github.com/fernando-moretes/dot-homebrew-google-terminal-search
+    # URL da arvore com barra final: e dela que o TechDocs resolve `dir:.`;
+    # sem a barra ele sobe um nivel e pede api.github.com/repos/<dono> (404).
+    backstage.io/source-location: url:https://github.com/fernando-moretes/dot-homebrew-google-terminal-search/tree/main/
     sonarqube.org/project-key: dot-homebrew-google-terminal-search
+    # TechDocs: mkdocs.yml + docs/ do proprio repositorio (rolados pelo platform)
+    backstage.io/techdocs-ref: dir:.
   links:
     - url: https://github.com/fernando-moretes/dot-homebrew-google-terminal-search/actions
       title: Actions
