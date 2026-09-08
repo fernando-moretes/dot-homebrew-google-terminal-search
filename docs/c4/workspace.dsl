@@ -7,12 +7,16 @@
  */
 workspace "dot-homebrew-google-terminal-search" "Homebrew distribution repository for google-terminal-search, part of Fernando Moretes public tooling portfolio." {
 
+    configuration {
+        scope softwaresystem
+    }
+
     model {
         usuario = person "Usuário"
         sistema = softwareSystem "dot-homebrew-google-terminal-search" "Homebrew distribution repository for google-terminal-search, part of Fernando Moretes public tooling portfolio." {
             app = container "Aplicação" "Descreva o que roda aqui" "ci-generic.yml"
         }
-        usuario -> sistema.app "Usa"
+        usuario -> sistema.app "Usa" "HTTPS"
     }
 
     views {
@@ -25,9 +29,19 @@ workspace "dot-homebrew-google-terminal-search" "Homebrew distribution repositor
             autoLayout lr
         }
         styles {
-            element "Person" { shape person; background #08427b; color #ffffff }
-            element "Software System" { background #1168bd; color #ffffff }
-            element "Container" { background #438dd5; color #ffffff }
+            element "Person" {
+                shape person
+                background #08427b
+                color #ffffff
+            }
+            element "Software System" {
+                background #1168bd
+                color #ffffff
+            }
+            element "Container" {
+                background #438dd5
+                color #ffffff
+            }
         }
     }
 }
